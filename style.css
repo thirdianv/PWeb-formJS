@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(9, 63, 132);
+}
+
+.form {
+  margin: auto;
+  width: 50%;
+  background-color: #e5eaf8;
+  border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

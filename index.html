@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Kuliah Offline</title>
+  </head>
+
+  <body>
+    <img class="p-5" src="https://my.its.ac.id/assets/media/img/myits-sso-white.png" alt="" />
+    <h2 class="text-center mt-1 pt-3 text-white">Form Kelayakan Kuliah Offline</h2>
+    <form name="formJS" class="form p-5 mt-5" onsubmit="return form()" method="post">
+      <div class="mb-2">
+        <label class="form-label">Nama</label>
+        <input type="text" class="form-control" name="nama" />
+      </div>
+      <div class="mb-2">
+        <label class="form-label">NRP</label>
+        <input type="number" class="form-control" name="nrp" />
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control" name="email" />
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Jurusan</label>
+        <input type="text" class="form-control" name="jurusan" />
+      </div>
+      <label>Dosis ke</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled />
+        <label class="form-check-label" for="flexRadioDefault1"> Belum vaksin </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
+        <label class="form-check-label" for="flexRadioDefault1"> 1 </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
+        <label class="form-check-label" for="flexRadioDefault1"> 2 </label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+  </body>
+</html>
